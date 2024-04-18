@@ -465,7 +465,7 @@ class F25Collator():
         #encodings['category_id'] = torch.tensor(examples['category_id'])
         return tokenized
 
-
+#https://qiita.com/m__k/items/2c4e476d7ac81a3a44af#1-%E3%83%A2%E3%83%87%E3%83%AB%E3%81%AE%E6%88%BB%E3%82%8A%E5%80%A4%E3%82%92modeloutput%E3%81%AB%E3%81%99%E3%82%8B
 class F25Net(nn.Module):
     def __init__(self, model, num_labels, loss_function=None):
         super().__init__()
